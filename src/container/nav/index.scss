@@ -1,0 +1,47 @@
+main {
+	padding: 60px;
+	display: flex;
+	justify-content: center;
+} 
+
+.nav{
+	display: flex;
+	padding: 16px 40px;
+	align-items: center;
+	gap: 40px;
+	border-radius: 100px;
+	background: #35363A;
+
+	&_input{
+		display: flex;
+		width: 830px;
+		padding: 16px 40px;
+		align-items: flex-start;
+		gap: 20.814px;
+		border-radius: 208.136px;
+		background: #202124;
+		color: #FFF;
+		font-size: 32px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	
+		&:hover{
+			box-shadow: inset 0 0 25px #767676;
+		}
+	
+		&:focus{
+			box-shadow: inset 0 0 25px #767676;
+		}
+	}
+}
+
+
+
+.nav_button{
+	transition: opacity 0.3s;
+
+	&:hover{
+		opacity: 0.5;
+	}
+}
